@@ -6,16 +6,6 @@
         :class="headerStyle.logo"
       ></router-link>
     </div>
-    <div :class="headerStyle.rightStyle">
-      <ul :class="headerStyle.ulStyle">
-        <!--        <li>-->
-        <!--          <router-link to="#">ABOUT</router-link>-->
-        <!--        </li>-->
-        <li>
-          <a href="javascript:;" @click="changeLocal">{{ $t('language') }}</a>
-        </li>
-      </ul>
-    </div>
   </header>
 </template>
 

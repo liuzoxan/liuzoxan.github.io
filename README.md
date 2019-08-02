@@ -1,4 +1,4 @@
-# business_web
+# Liuzoxan's Page
 
 ## Project setup
 ```
@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles for production
 ```
 npm run build
 ```

@@ -1,13 +1,15 @@
 <template>
   <div>
-    <swiper-layout></swiper-layout>
-    <content-layout></content-layout>
+    <!--    <swiper-layout></swiper-layout>-->
+    <!--    <content-layout></content-layout>-->
+    <wall-layout></wall-layout>
   </div>
 </template>
 
 <script>
-import SwiperLayout from './home/swiper'
-import ContentLayout from './home/content'
+// import SwiperLayout from './home/swiper'
+// import ContentLayout from './home/content'
+import WallLayout from './home/wall'
 
 export default {
   name: 'Main',
@@ -15,8 +17,9 @@ export default {
     return {}
   },
   components: {
-    SwiperLayout,
-    ContentLayout
+    // SwiperLayout,
+    // ContentLayout
+    WallLayout
   }
 }
 </script>

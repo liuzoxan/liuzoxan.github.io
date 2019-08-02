@@ -1,7 +1,3 @@
-/**
- * Created by xuanjinliang on 2019/03/21.
- */
-
 import Vue from 'vue'
 import Vuex from 'vuex'
 import getters from './getters'

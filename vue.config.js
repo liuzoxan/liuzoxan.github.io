@@ -1,7 +1,3 @@
-/**
- * Created by xuanjinliang on 2018/10/29.
- */
-
 const TerserPlugin = require('terser-webpack-plugin')
 const webpack = require('webpack')
 
