@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-style"],{"2e63":function(t,e,n){t.exports={content:"content_2jg6CGn1",leftStyle:"leftStyle_1IVhkPgT",date:"date_24KBP0LQ",title:"title_3DrzeT52",rightStyle:"rightStyle_3HErpxhQ"}}}]);
