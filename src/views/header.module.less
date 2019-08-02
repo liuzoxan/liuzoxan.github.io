@@ -1,0 +1,76 @@
+@import (reference) '../style/common.less';
+
+.headerStyle {
+  position: relative;
+  width: 64%;
+  height: 75px;
+  padding: 0 18%;
+  background: #0b0b0b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 12;
+}
+
+.leftStyle,
+.rightStyle {
+  position: relative;
+  width: 64%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .logo {
+    width: 120px;
+    height: 32px;
+    margin-right: 18px;
+    background: url('../assets/logo.png') no-repeat center left;
+    .background-size(100%, auto);
+    outline:none;
+  }
+
+  .ulStyle {
+    padding: 0;
+    .clearfix();
+
+    li {
+      position: relative;
+      float: left;
+      margin-left: 18px;
+    }
+
+    a {
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      padding: 5px 0;
+      display: block;
+      outline:none;
+    }
+
+    a:active,
+    a:hover {
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+}
+
+.rightStyle {
+  width: 36%;
+  justify-content: flex-end;
+
+  .ulStyle li {
+    a {
+      font-size: 12px;
+      color: #8b939b;
+    }
+    a:active,
+    a:hover {
+      border-bottom: 2px solid #8b939b;
+    }
+  }
+}
